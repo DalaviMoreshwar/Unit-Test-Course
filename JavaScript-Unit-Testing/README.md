@@ -1,4 +1,4 @@
-bb# JavaScript Unit Testing
+# JavaScript Unit Testing
 
 ## Setting up Testing Environment
 
@@ -38,19 +38,19 @@ A form of automated testing where we write code to check our code works as excep
 
 ### Types of Tests
 
-**Unit Tests:** It verifies that <ins>correctenss of individual units or components</ins> of application in isolation. These units could be _functions_, _classes_, or evern _small modules_.
+1️⃣ **Unit Tests:** It verifies that <ins>correctenss of individual units or components</ins> of application in isolation. These units could be _functions_, _classes_, or evern _small modules_.
 
 > [!NOTE]
 >
 > **Unit tests** help catch bugs early in the deveopment process.
 
-**Integration Tests:** The integration tests are <ins>focuses on how different units or components are work together as a whole.</ins>
+2️⃣ **Integration Tests:** The integration tests are <ins>focuses on how different units or components are work together as a whole.</ins>
 
 > [!NOTE]
 >
 > It helps to identify issues that may arise when combining different units such as data flow problems, communication between different modules, or compatibility issues between components.
 
-**End to End Tests:** The E2E tests are <ins>focuses on entire application as a whole</ins>.
+3️⃣ **End to End Tests:** The E2E tests are <ins>focuses on entire application as a whole</ins>.
 
 > [!NOTE]
 >
