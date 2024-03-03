@@ -64,6 +64,8 @@ TDD is a way of building software, it follows a simple, effective 3 step cycle.
 - Write just enought code to make the test pass.
 - Refactor if necessary.
 
+> TDD produces code that is 100% covered by tests.
+
 ## Core Unit Testing Techniques
 
 ## Breaking Dependencies with Mocks

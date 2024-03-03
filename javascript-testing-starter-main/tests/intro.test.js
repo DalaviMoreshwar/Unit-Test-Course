@@ -1,5 +1,5 @@
 import { describe, it, expect } from "vitest";
-import { fizzBuzz, max } from "../src/intro";
+import { calculateAvarage, fizzBuzz, max } from "../src/intro";
 
 describe("max", () => {
   it("should return first argument if it is greater", () => {
@@ -30,5 +30,23 @@ describe("fizzBuzz", () => {
 
   it("should return an arg as a string if arg is not divisible by 3 or 5", () => {
     expect(fizzBuzz(1)).toBe("1");
+  });
+});
+
+describe("calculateAvarage", () => {
+  it("should return NaN if given an empty array", () => {
+    expect(calculateAvarage([])).toBe(NaN);
+  });
+
+  it("should calculate the avarage of a single element", () => {
+    expect(calculateAvarage([1])).toBe(1);
+  });
+
+  it("should calculate the avarage of two elements", () => {
+    expect(calculateAvarage([1, 2])).toBe(1.5);
+  });
+
+  it("should calculate the avarage of multiple elements", () => {
+    expect(calculateAvarage([1, 2, 3, 4])).toBe(2.5);
   });
 });
