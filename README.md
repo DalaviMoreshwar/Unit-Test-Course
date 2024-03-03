@@ -56,6 +56,14 @@ A form of automated testing where we write code to check our code works as excep
 >
 > E2E tests simulate user interactions with the entire system.
 
+### Test Driven Development (TDD)
+
+TDD is a way of building software, it follows a simple, effective 3 step cycle.
+
+- Start by writing a failing test.
+- Write just enought code to make the test pass.
+- Refactor if necessary.
+
 ## Core Unit Testing Techniques
 
 ## Breaking Dependencies with Mocks
